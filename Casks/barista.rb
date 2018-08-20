@@ -8,6 +8,8 @@ cask 'barista' do
   
     auto_updates true
     depends_on macos: '>= :mavericks'
+    depends_on formula: 'libimobiledevice'
+    depends_on formula: 'ideviceinstaller'
   
     app 'MoQuality.app'
   end
