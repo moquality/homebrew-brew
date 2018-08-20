@@ -7,6 +7,6 @@ Install the MQ CLI with
 
 Install Barista with
 
-    $ brew install moquality/cask/barista
+    $ brew cask install moquality/brew/barista
 
 For more information, visit https://cli.moquality.com
