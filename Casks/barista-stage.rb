@@ -2,7 +2,7 @@ cask 'barista-stage' do
     version :latest
     sha256 :no_check
   
-    url 'https://storage.googleapis.com/moquality/releases/stage-recorder/latest/MoQuality.dmg'
+    url 'https://mq.tools/barista-stage/latest.dmg'
     name 'Barista (Staging)'
     homepage 'https://www.moquality.com/'
   
@@ -11,6 +11,6 @@ cask 'barista-stage' do
     depends_on formula: 'libimobiledevice'
     depends_on formula: 'ideviceinstaller'
   
-    app 'MoQuality-stage.app'
+    app 'Barista-stage.app'
   end
   
