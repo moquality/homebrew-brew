@@ -11,6 +11,6 @@ cask 'barista-stage' do
     depends_on formula: 'libimobiledevice'
     depends_on formula: 'ideviceinstaller'
   
-    app 'Barista-stage.app'
+    app 'Barista.app'
   end
   
