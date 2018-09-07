@@ -2,7 +2,7 @@ cask 'barista' do
     version :latest
     sha256 :no_check
   
-    url 'https://storage.googleapis.com/moquality/releases/prod-recorder/latest/MoQuality.dmg'
+    url 'https://mq.tools/barista/latest.dmg'
     name 'Barista'
     homepage 'https://www.moquality.com/'
   
@@ -11,6 +11,6 @@ cask 'barista' do
     depends_on formula: 'libimobiledevice'
     depends_on formula: 'ideviceinstaller'
   
-    app 'MoQuality.app'
+    app 'Barista.app'
   end
   
