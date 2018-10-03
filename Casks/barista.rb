@@ -1,8 +1,8 @@
 cask 'barista' do
-    version :latest
-    sha256 :no_check
+    version '0.15.2'
+    sha256 '6a1dc23d4ce227a5f624bb3764f6e15539a729ab4de37bd69f11a62c0d6116fa'
   
-    url 'https://mq.tools/barista/latest.dmg'
+    url 'https://github.com/moquality/barista-releases/releases/download/v#{version}/Barista-#{version}.dmg'
     name 'Barista'
     homepage 'https://www.moquality.com/'
   
