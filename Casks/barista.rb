@@ -1,6 +1,6 @@
 cask 'barista' do
-    version '0.18.1'
-    sha256 'fcd614c12c1dfcbcc84b0ce7d22ee02a36eeef7d1b6b4b04b7fdc1eb842c5c05'
+    version '0.18.2'
+    sha256 'a383b284cff761210f11b2f050d2d9e7af3f2fba2a35acef43be9df6d1d2a469'
 
     url "https://github.com/moquality/barista-releases/releases/download/v#{version}/Barista-#{version}.dmg"
     name 'Barista'
