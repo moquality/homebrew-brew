@@ -3,8 +3,8 @@ require "language/node"
 class Mq < Formula
   desc "Command-line client for MoQuality"
   homepage "https://docs.moquality.com"
-  url "https://registry.npmjs.org/-/mq-cli-0.0.21.tgz"
-  sha256 "119dd3673dcea6eea2b67afaa87cbe19d8ef6f8eb4ee36ae1e3b9a996efb1345"
+  url "https://registry.npmjs.org/-/mq-cli-0.0.24.tgz"
+  sha256 "94840c6aa06af4a60d118253543f9a03b45e8c565a4bed36730f4121683761bc"
 
   depends_on "node"
 
